@@ -1,0 +1,25 @@
+/* Css encabezado */
+
+header {
+    background-color: #f3bf30;
+    padding: 10px;
+}
+
+#menu_nav {
+    display: inline-block;
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    gap: 90px;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#logo {
+    margin-right: 20px;
+    width: 65px;
+    height: 75px;
+    vertical-align: middle;
+}
+

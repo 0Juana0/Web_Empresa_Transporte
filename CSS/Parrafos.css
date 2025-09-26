@@ -1,0 +1,54 @@
+/* Css para los parrafos */
+.contenido_uno {
+    
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #acd4d2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenido_uno p  {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenido_uno h2  {
+    font-size: 27px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenido_uno table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-spacing: 5px;
+    
+}
+.contenido_uno li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenido_dos {
+    
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #3984da;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

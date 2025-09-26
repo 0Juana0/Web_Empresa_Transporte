@@ -1,0 +1,49 @@
+/* Css Formulario */
+
+.form {
+  background-color: #f8f68a;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grupo {
+  margin-bottom: 20px;
+}
+
+.formulario input, .formulario textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  box-sizing: border-box;
+  
+}
+
+.formulario textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #e30613;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  }

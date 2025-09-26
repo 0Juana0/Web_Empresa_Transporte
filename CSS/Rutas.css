@@ -1,0 +1,29 @@
+/* Css para la tabla de rutas */
+
+.ruta table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px; /* separación vertical entre filas */
+  font-family: Arial, sans-serif;
+  margin: 45px auto;
+}
+
+.ruta thead th {
+  background-color: #004080; /* azul oscuro similar al sitio */
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+.ruta tbody tr {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* efecto de elevación */
+}
+
+.ruta td {
+  padding: 22px;
+  text-align: center;
+  border: none;
+}
