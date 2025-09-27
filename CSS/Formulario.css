@@ -43,7 +43,18 @@
   background-color: #e30613;
   color: #fff;
   border: none;
-  padding: 12px 30px;
+  padding: 14px 30px;
   font-size: 1rem;
   border-radius: 4px;
+  margin-top: 5px;
   }
+
+.opcion {
+
+  display:inline-block;
+  margin-right: 25px;
+  padding: 5px 10px;
+
+  }
+
+
