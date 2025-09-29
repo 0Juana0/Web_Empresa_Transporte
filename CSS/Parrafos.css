@@ -1,29 +1,54 @@
 /* Css para los parrafos */
+
 .contenido_uno {
-    
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #acd4d2;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  background-color: #fdf6e3; 
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.contenido_uno p  {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000000;
-    margin-bottom: 12px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.contenido_uno h1 {
+  color: #2c2c2c;
+  margin-bottom: 30px;
+  font-size: 28px;
 }
 
-.contenido_uno h2  {
-    font-size: 27px;
-    line-height: 1.5;
-    color: #000000;
-    margin-bottom: 12px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.tarjeta {
+  background-color: #f3bf30; 
+  color: #000000;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.contenido_dos p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c2c2c;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parrafos-finales p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333333;
 }
 
 .contenido_uno table {
@@ -33,22 +58,4 @@
     text-align: center;
     border-spacing: 5px;
     
-}
-.contenido_uno li {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000000;
-    margin-bottom: 12px;
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.contenido_dos {
-    
-    margin: 15px auto;
-    padding: 10px;
-    background-color: #3984da;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
